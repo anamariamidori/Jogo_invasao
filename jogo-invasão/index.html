@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <audio src="sons/som.mp3" preload="auto" id="somDisparo"></audio>
+        <audio src="sons/explosao.mp3" preload="auto" id="somExplosao"></audio>
+        <audio src="sons/musica_fundo.mp3" preload="auto" id="musica"></audio>
+        <audio src="sons/gameover.mp3" preload="auto" id="somGameover"></audio>
+        <audio src="sons/perdido.mp3" preload="auto" id="somPerdido"></audio>	
+        <audio src="sons/resgate.mp3" preload="auto" id="somResgate"></audio>
+
+        <title>Jogo de invasão</title>
+    </head>
+<body>
+    <main>
+        <div id="container">
+            <div id="fundoGame"> 
+                <div id="inicio" onclick="start()"><h1> INVASÃO </h1>
+                <p class="pontua">Utilize a tecla para cima e a tecla para baixo para mover o helicótero, para atirar utilize a barra de espaço.</p>
+                <a><i class="fas fa-play"></i> play! </a>
+                </div>	
+            </div> 
+            <div class="placar"></div>	
+        </div> 
+    </main>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script type="text/javascript" src="./js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery-collision.min.js"></script>
+    <script type="text/javascript" src="./setup.js"></script>
+</body>
+</html>
